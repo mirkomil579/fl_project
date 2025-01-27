@@ -13,7 +13,7 @@ The project evaluates the impact of Federated Learning on model accuracy and los
 2. Shakespeare
 
   * **Overview:** Text Dataset of Shakespeare Dialogues
-  * **Details:** 1129 users (reduced to 660 with our choice of sequence length. See [bug](https://github.com/TalwalkarLab/leaf/issues/19).)
+  * **Details:** 1129 users (reduced to 660 with our choice of sequence length.
   * **Task:** Next-Character Prediction
 
 ## Parameters:
