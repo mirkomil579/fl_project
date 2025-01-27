@@ -37,11 +37,19 @@ Additional parameters concerning data splitting for CIFAR-100 are stored in `dat
 - **`requirements.txt`**: A list of required libraries for setting up the environment.
 - **`src/`**: Contains various scripts for different datasets and tasks.
   - `cifar/`: Scripts and resources specific to the CIFAR dataset applying fedavg.
-    - `Centralized_Federated(iid).ipynb`: Centralized baseline
+    - `CIFAR_100_CENTRALIZED__TRAINING.ipynb`: Centralized baseline
     - `Client_participation.ipynb`: Definition of client participation
-    -  
+    - `data_sharding.ipynb`: Data sharding process
+    - `Centralized_Federated(iid).ipynb`: First federated baseline
+    - `Skewed_Uniform....ipynb`: Federated training on uniform and skewed client participation
+    - `FEDERATED_HETERO....ipynb`: Hyperparameter tuning for federated training
   - `shakespeare/`: Scripts related to the Shakespeare dataset applying fedavg.
-- **`LICENSE`**: Licensing information for the project.
+    - `centralized_final.py`: Centralized baseline
+    - `data_distribution_shakespeare.ipynb`: Data sharding process
+    - `Centralized_Federated(iid).ipynb`: First federated baseline
+    - `skewed_shakespeare.py`: Federated training on uniform and skewed client participation
+    - `FEDERATED_HETERO....ipynb`: Hyperparameter tuning for federated training
+- **`LICENSE**: Licensing information for the project.
 - **`README.md`**: Documentation for the project.
 
 
