@@ -49,7 +49,7 @@ Additional parameters concerning data splitting for CIFAR-100 are stored in `dat
     - `Centralized_Federated(iid).ipynb`: First federated baseline
     - `skewed_shakespeare.py`: Federated training on uniform and skewed client participation
     - `FEDERATED_HETERO....ipynb`: Hyperparameter tuning for federated training
-- **`LICENSE**: Licensing information for the project.
+- **`LICENSE`**: Licensing information for the project.
 - **`README.md`**: Documentation for the project.
 
 
