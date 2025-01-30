@@ -27,6 +27,7 @@ The project evaluates the impact of Federated Learning on model accuracy and los
 - `test_freq` testing frequency
 - `participation` mode of client participation: `uniform` or `skewed`
 - `gamma` scale of skewness in the case of skewed participation, otherwise ignored
+- `d_value` parameter for dynamic pow-d client selector
 
 Additional parameters concerning data splitting for CIFAR-100 are stored in `data_split_params`:
 - `shard_type` method of splitting data: `iid` or `non-iid`
