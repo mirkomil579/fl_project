@@ -40,15 +40,17 @@ Additional parameters concerning data splitting for CIFAR-100 are stored in `dat
     - `CIFAR_100_CENTRALIZED__TRAINING.ipynb`: Centralized baseline
     - `Client_participation.ipynb`: Definition of client participation
     - `data_sharding.ipynb`: Data sharding process
-    - `Centralized_Federated(iid).ipynb`: First federated baseline
+    - `Federated_baseline.ipynb`: First federated baseline
     - `Skewed_Uniform....ipynb`: Federated training on uniform and skewed client participation
     - `FEDERATED_HETERO....ipynb`: Hyperparameter tuning for federated training
-  - `shakespeare/`: Scripts related to the Shakespeare dataset applying fedavg.
+    - `pow_d.py` - Dynamic PoW-d client selection 
+  - `shakespeare/`: Scripts and resources related to the Shakespeare dataset applying fedavg.
     - `centralized_final.py`: Centralized baseline
     - `data_distribution_shakespeare.ipynb`: Data sharding process
-    - `Centralized_Federated(iid).ipynb`: First federated baseline
+    - `first_baseline.ipynb`: First federated baseline
     - `skewed_shakespeare.py`: Federated training on uniform and skewed client participation
-    - `FEDERATED_HETERO....ipynb`: Hyperparameter tuning for federated training
+    - `shakespeare_heteregeneous_federated.py`: Hyperparameter tuning for federated training
+    - `pow_d_shakespeare.py`: Dynamic Pow-d client selection
 - **`LICENSE`**: Licensing information for the project.
 - **`README.md`**: Documentation for the project.
 
